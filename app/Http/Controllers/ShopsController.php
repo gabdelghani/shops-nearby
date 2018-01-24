@@ -17,9 +17,13 @@ class ShopsController extends Controller
      */
     public function index(Request $request)
     {
-        $shops = Shop::getShops();
+        //if $type == prefered i'll show just liked and not showing the shops liked in the main page (all shops)
+        $type = $request->shops;
+        $prefered = ($type == 'prefered') ? true : false;
 
-        return view ('shops.index', compact('shops'));
+        $shops = Shop::getShops(auth()->id(), $prefered);
+
+        return view ('shops.index', ['shops' => $shops, 'type' => $type]);
     }
 
      /**
