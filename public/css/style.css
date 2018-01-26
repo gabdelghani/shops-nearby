@@ -1,0 +1,54 @@
+#shop{
+
+	min-height: 300px;
+}
+
+.oneshop{
+
+	width: 69%;
+
+	margin: 7px auto 41px;
+	
+	border: 1px solid #ddd;
+
+}
+
+.oneshop h4{
+
+	text-align: left;
+
+	margin-left: 5%
+
+}
+
+.btn-panel{
+
+	margin: 5px auto;
+	
+	height: 38px;
+	
+	width: 89%;
+
+}
+
+.btn-panel .btn.btn-danger{
+
+	float: left;
+
+}
+
+.btn-panel .btn.btn-success{
+
+	float: right;
+
+}
+
+.btn-link{
+
+	text-decoration: underline;
+}
+
+.btn-link.active{
+
+	text-decoration: none;
+}

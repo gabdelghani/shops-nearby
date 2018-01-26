@@ -54,10 +54,10 @@
                                 <button type="submit" class="btn btn-primary">
                                     Login
                                 </button>
-
+                                <?php /*
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
-                                </a>
+                                </a> */ ?>
                             </div>
                         </div>
                     </form>

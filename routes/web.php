@@ -19,6 +19,4 @@ Route::get('/home', 'ShopsController@index')->name('home');
 
 Route::get('/like', 'ShopsController@like')->name('like');
 
-
-Auth::routes();
-
+Route::get('/nearby', 'ShopsController@nearby');
