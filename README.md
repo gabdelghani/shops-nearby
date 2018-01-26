@@ -11,3 +11,4 @@ For my Web Coding Challenge, my first time with mongoDB.
 
 - Be careful, since 2016-2017 most browsers (in my dev machine -ubuntu 16.04 LTS- the code works with Chrome but not with firefox) ask to use the https: // protocol to access the geolocation. If you do your tests locally and / or http: // classic, the function will be disabled.
 
+- The DB is located in /shops folder
